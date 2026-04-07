@@ -1,51 +1,61 @@
 .container{
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
 }
 .header{
-  flex: 15%
-  background-color: lightgray;
-  backgroung: url("image/logoNQ.png") center/100% 100%;
+     flex: 20%;
+     background-color: lightgray;
+     background: url("logoNQ.png") center/ 100% 100% ;
+     aspect-ratio: 6/1;
 }
 .menu{
-  flex:5%
-  background-color: darkgray;
-
+    flex: 5%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+}
+.menu a{
+    padding: 15px 30px; 
+    color: magenta;
+}
+.menu a:hover{
+    background-color: red;
+    color: blue;
 }
 .content{
-  flex:70%
-  background-color: white;
-
-}
-.footer{
-  flex: 70%
-  background-color: lightgray;
-
+    flex: 70%;
+    background-color: white;
 }
 .content iframe{
-flex: 1;
-width: 100%;
-height: 100%;
-border:0;
+    flex: 1;
+    border: none;
+    width: 100%;
+    height: 100%;
+}       
+.footer{
+    flex: 5%;
+    background-color: lightgray;
 }
-
-h1{
-  color: red;
+.tieude{
+    color: tomato;
+    font-weight: bold;
+    font-size: 20pt;
 }
-.f1{
-  color: red;
-  margin-top:18pt;
-  margin-top: 12pt;
-  font-size: 20px;
-  font-weight: bold;
-  font-family: Arial;
-}
-.f2 {
+.noidung{
     color: black;
-  margin-top: 6pt;
-  margin-bottom: 6pt;
-  font-size: 15px;
-  font-style: normal;
-  font-family: Arial;
+    font-style: normal;
+    font-size: 14pt;
+}
+.backup{
+    color: D11111;
+    font-weight: bold;
+    font-size: 25pt;
+    text-align: center;
+}
+.word{
+    color: black;
+    font-weight: bold;
+    font-size: 15pt;
+    text-align: center;
 }
